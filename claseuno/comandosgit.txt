@@ -1,0 +1,10 @@
+1. Para revisar la configuración
+git --version
+2. Configurar nombre de usuario
+git config --global user.name "pablo..."
+3. Configurar email de usuario
+git config --global user.email "pablo...@gmail.com"
+4. Borrar
+cls
+clear
+
