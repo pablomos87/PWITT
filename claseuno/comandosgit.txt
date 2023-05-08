@@ -8,3 +8,4 @@ git config --global user.email "pablo...@gmail.com"
 cls
 clear
 
+5. Ajustar texto (Atajo de teclado alt + z.
