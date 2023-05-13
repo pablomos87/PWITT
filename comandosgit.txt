@@ -9,3 +9,6 @@ cls
 clear
 
 5. Ajustar texto (Atajo de teclado alt + z.
+
+6. Para comentar
+alt+shift+a 

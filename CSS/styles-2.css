@@ -1,0 +1,35 @@
+/* selector global para el html */
+* {
+
+}
+
+/* selector de etiquetas */
+
+
+
+.segundo{
+    color: #65c854;
+background-color: grey;
+}
+
+.grande{
+    font-size: 35px;
+
+}
+
+#unico{
+    color: #350064;
+}
+/*  */
+.segundo{
+
+    font-style:italic
+}
+div {
+    background-color: rgb(48, 48, 129);
+
+}
+
+h2 {
+    color: red
+}
