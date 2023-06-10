@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../clase-07-boots/bootstrap-5.3.0/dist/css/bootstrap.min.css">
+    <title>Ejercicio Bootstrap</title>
+</head>
+<style>
+
+    .img-logo {
+        width: 30px;
+        height: 30px; 
+    }
+    .carousel-inner {
+        width: 80%;
+        height: 400px;
+    }
+
+    .card-img-top {
+        filter: brightness(0.4);
+        height: 400px;
+    }
+    .containter-mid {
+        padding-top: 30px;
+    }
+
+    .card-img-list {
+        width: 180px;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+
+    .p-2 {
+        width: 200px;
+        height: 400px;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+</style>
+
+<body class="bg-light">
+    <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <span><img src="./images.png" class="img-logo" alt="logo"></span> Bookstore Archive</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleDark" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+
+            <di class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./descarga.jpeg" class="card-img-top img-fluid rounded mx-auto d-block" alt="Biblioteca">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-2 fw-bold">Welcome to Bookstore Archive</h5>
+                        <p class="display-7">The best book collection in the World</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./Tipos-de-libros.jpeg" class="card-img-top img-fluid rounded mx-auto d-block"
+                        alt="Libros">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Find the book you want</h5>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+
+        <div class="containter-mid d-flex justify-content-center gap-5 bg-light">
+            <div class="p-2 d-flex flex-column align-items-stretch">
+                <img src="./Ficciones.jpeg" class="card-img-list" alt="Ficciones">
+                <h3 class="fs-6">
+                    Collected Fictions <br> (Jorge Luis Borges)
+                </h3>
+                <p class="fs-6 text-center">
+                    First english edition
+                </p>
+            </div>
+            <div class="p-2 d-flex flex-column align-items-stretch">
+                <img src="./Stoner.jpeg" class="card-img-list" alt="Stoner">
+                <h3 class="fs-6">
+                    Stoner <br>(John Williams)
+                </h3>
+                <p class="fs-6 text-center">
+                    1965 Edition (The Viking Press)
+                </p>
+            </div>
+            <div class="p-2 d-flex flex-column align-items-stretch">
+                <img src="./Catcher.jpeg" class="card-img-list" alt="The Catcher in the Rye">
+                <h3 class="fs-6">
+                    The Catcher in the Rye <br> (J.D Salinger)
+                </h3>
+                <p class="fs-6 text-center">
+                    1951 Edition (Little, Brown and Company)
+                </p>
+            </div>
+        </div>
+
+        <div class="container bg-secondary">
+            <div class="p-5 text-center bg rounded-3">
+                <h2 class="text-light">
+                    Buy your book and receive it wherever you are
+                </h2>
+                <div class="d-grid d-md-block">
+                    <button class="btn btn-light" type="button">See products</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Company, Inc</p>
+
+                <a href="/"
+                    class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                </ul>
+            </footer>
+        </div>
+    </footer>
+
+
+    <script src="../clase-07-boots/bootstrap-5.3.0/dist/js/bootstrap.min.js"> </script>
+
+</body>
+
+</html>

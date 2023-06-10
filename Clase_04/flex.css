@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=The+Girl+Next+Door&display=swap');
+
+
+body{
+    background: rgb(228, 228, 238)
+}
+
+/* Flex es responsivo */
+
+.contenedorPadre{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-content:center;
+    align-items:end;
+    padding: 20px;
+    background: blue; 
+    height: 600px;   
+}
+
+.contenedorPadre div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+ /*    margin: 15px; */
+}

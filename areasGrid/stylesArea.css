@@ -1,0 +1,36 @@
+
+.border {
+border: 1px solid black;
+}
+header{
+    grid-area:header;
+}
+nav{
+    grid-area:nav;
+}
+
+#productos{
+    grid-area:productos;
+}
+
+#servcios{
+    grid-area:servicios;
+}
+
+aside{
+    grid-area:aside;
+}
+footer{
+    grid-area:footer;
+}
+
+#grilla{
+    display: grid;
+    grid-template-areas:
+    "nav header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "nav footer footer";
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+}

@@ -1,0 +1,51 @@
+body{
+    background: lightblue
+}
+
+/* @media screen and (max-width: 600px) {
+body{
+    background: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    }
+} */
+
+
+@media (min-width: 576px) { 
+    body{
+        background: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px;
+        }
+ }
+
+@media (min-width: 768px) { 
+    body{
+    background: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    }}
+
+@media (min-width: 992px) { 
+    body{
+        background: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px;
+        }
+}
+
+@media (min-width: 1200px) { 
+    body{
+        background: blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px;
+        }
+}
+
+@media (min-width: 1400px) { 
+    body{
+        background: yellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px;
+        }
+}
